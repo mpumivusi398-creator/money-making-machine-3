@@ -1,0 +1,21 @@
+body{font-family:Arial,sans-serif;margin:0;padding:0 10px;line-height:1.6;background:#f9f9f9;}
+header{background:#0a192f;color:white;padding:15px;}
+header a{color:white;text-decoration:none;margin-right:10px;}
+.hero{background:#e8f5e9;padding:20px;text-align:center;border:1px solid #c8e6c9;}
+.card{border:1px solid #ccc;padding:10px;margin:10px 0;background:white;opacity:0;transform:translateY(20px);transition:all 0.5s ease;}
+.card.show{opacity:1;transform:translateY(0);}
+.card img{width:100%;max-width:300px;height:180px;object-fit:cover;cursor:pointer;}
+.products-grid{display:grid;grid-template-columns:1fr;}
+@media(min-width:768px){.products-grid{grid-template-columns:1fr 1fr;}}
+.accordion-header{width:100%;text-align:left;padding:10px;margin-top:5px;background:#eee;border:none;cursor:pointer;}
+.accordion-content{display:none;padding:10px;background:white;border:1px solid #ddd;}
+.tab-content{padding:10px;background:white;border:1px solid #ddd;margin-top:5px;}
+.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:1000;}
+.modal-content{background:white;margin:15% auto;padding:20px;width:80%;max-width:500px;}
+.lightbox{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);justify-content:center;align-items:center;z-index:1001;}
+.lightbox img{max-width:90%;max-height:90%;}
+.error{color:red;font-size:12px;}
+input,select,textarea{width:100%;padding:8px;margin:5px 0 10px;box-sizing:border-box;}
+button{background:#0a192f;color:white;padding:10px 15px;border:none;cursor:pointer;}
+button:hover{background:#1a8a4a;}
+footer{margin-top:20px;padding:15px;background:#0a192f;color:white;text-align:center;}

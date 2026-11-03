@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moneymakingmachine-trading.netlify.app/sitemap.xml
